@@ -858,6 +858,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Autoupdate</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			6eiIWzGP/PStITAgkB7xzYomjMY=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"de13591b25b9813c2019710f4d86933f1f7dc64d" or cdhash H"e9e8885b318ffcf4ad213020901ef1cd8a268cc6" or cdhash H"fa8dcfdb53b9cfb0f2980bc57edb0447f62a0375" or cdhash H"18b3ed8464b8987f497e3ba5302cc94e672f55fb"</string>
+		</dict>
 		<key>Headers/SPUDownloadData.h</key>
 		<dict>
 			<key>hash</key>
@@ -2370,6 +2379,15 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Updater.app</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			FvhoUCWpooOxyifzqMB7qtBHQf0=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"b4378d72d4c512a45c462eefe308eb46fad0835e" or cdhash H"16f8685025a9a283b1ca27f3a8c07baad04741fd" or cdhash H"ac6a283ae0d1c9fba5f812eed703ac021655d4a3" or cdhash H"8b82f8c35088f699158ae513f47736c230c9d876"</string>
 		</dict>
 	</dict>
 	<key>rules</key>
