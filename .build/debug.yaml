@@ -1,0 +1,38 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "RSSparkleXPC-debug.module": ["<RSSparkleXPC-debug.module>"]
+  "main": ["<RSSparkleXPC-debug.module>"]
+  "test": ["<RSSparkleXPC-debug.module>"]
+default: "main"
+nodes:
+  "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/RSSparkle.xcframework/":
+    is-directory-structure: true
+  "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Sources/RSSparkleXPC/":
+    is-directory-structure: true
+commands:
+  "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/.build/arm64-apple-macosx/debug/RSSparkle_RSSparkleXPC.bundle/Resources":
+    tool: copy-tool
+    inputs: ["/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Sources/RSSparkleXPC/Resources/"]
+    outputs: ["/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/.build/arm64-apple-macosx/debug/RSSparkle_RSSparkleXPC.bundle/Resources/"]
+    description: "Copying /Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Sources/RSSparkleXPC/Resources"
+
+  "<RSSparkleXPC-debug.module>":
+    tool: phony
+    inputs: []
+    outputs: ["<RSSparkleXPC-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/RSSparkle.xcframework/","/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Sources/RSSparkleXPC/","/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Package.swift","/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
+  "RSSparkleXPC-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/.build/arm64-apple-macosx/debug/RSSparkle_RSSparkleXPC.bundle/Resources/"]
+    outputs: ["<RSSparkleXPC-debug.module-resources>"]
+

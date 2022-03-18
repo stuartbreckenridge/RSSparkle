@@ -1,0 +1,23 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "packageRef" : {
+          "identity" : "rssparkle",
+          "kind" : "root",
+          "location" : "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle",
+          "name" : "RSSparkle"
+        },
+        "path" : "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/RSSparkle.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "RSSparkle"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 5
+}

@@ -1,0 +1,33 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/.build/arm64-apple-macosx/debug/RSSparkle_RSSparkleXPC.bundle/Resources" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/Sources/RSSparkleXPC/Resources"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/stuartbreckenridge/Projects/NetNewsWire/RSSparkle/.build/arm64-apple-macosx/debug/RSSparkle_RSSparkleXPC.bundle/Resources"
+        }
+      ]
+    }
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
